@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: yarn install
     - run: yarn build
-    - run: git push origin && git subtree push --prefix dist origin gh-pages
+    - run: git push origin :gh-pages && git subtree push --prefix dist origin gh-pages
