@@ -3,14 +3,14 @@
 		<div class="feature">
 			<h2>Branding Begone!</h2>
 			<p>
-				Write your scripts without the hassle of featuring multiple product names all over them. UNC is an entirely
+				Write your scripts without the hassle of featuring multiple product names all over them. RENC is an entirely
 				<strong>vanilla</strong> API, functions are named to what they <strong>do</strong>, not to what brand they "belong" to.
 			</p>
 		</div>
 		<div class="feature">
 			<h2>Easier Scripting</h2>
 			<p>
-				Scripters writing scripts is no longer a daunting task, products which feature full UNC support will automatically work with their
+				Scripters writing scripts is no longer a daunting task, products which feature full RENC support will automatically work with their
 				script.
 			</p>
 		</div>
@@ -24,7 +24,7 @@
 		<div class="feature">
 			<h2>Open to additions and edits!</h2>
 			<p>
-				UNC is an evergrowing API - edits, additions and criticisms are open and taken by anyone via our GitHub. It aims to provide a unified
+				RENC is an evergrowing API - edits, additions and criticisms are open and taken by anyone via our GitHub. It aims to provide a unified
 				API after all!
 			</p>
 		</div>

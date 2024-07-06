@@ -1,16 +1,16 @@
 <template>
 	<div class="section footer">
 		<div class="content">
-			<img src="@/assets/UNC-Supported.png" alt="" />
+			<img src="@/assets/ENC-Supported.png" alt="" />
 			<sub>A collaboration to provide better scripting!</sub>
 			<p v-if="$route.path != '/badge'">
-				Have <em>you</em> added UNC support already? <router-link to="/badge">Feature the “UNC Supported” badge on your website</router-link>!
+				Have <em>you</em> added RENC support already? <router-link to="/badge">Feature the RENC badge on your website</router-link>!
 			</p>
 		</div>
 		<div class="aside">
 			<p class="protected">This website is protected by <a href="https://nexuspipe.com" target="_blank">NexusPIPE</a>.</p>
 			<p class="opensource">
-				This website is also open source on <a href="https://github.com/unified-naming-convention/website" target="_blank">GitHub</a>.
+				This website is also open source on <a href="https://github.com/external-naming-convention/robloxWebsite" target="_blank">GitHub</a>.
 			</p>
 		</div>
 	</div>

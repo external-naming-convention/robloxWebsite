@@ -1,7 +1,7 @@
 <template>
 	<div class="section why">
 		<sub>What exactly is wrong with how things work now?</sub>
-		<h2>The reason for the Unified Naming Convention.</h2>
+		<h2>The reason for the Roblox External Naming Convention.</h2>
 		<div class="split">
 			<p>
 				Since script execution has become prevalent software with hundreds of thousands of users, the development of scripts has become more
@@ -9,20 +9,20 @@
 			</p>
 			<p>
 				This results in a difficult environment for a script developer. If you wish to develop a script that works across multiple products,
-				you are <strong>required</strong> to understand how they name their functions, how their functions work, etc. This is exactly what UNC
+				you are <strong>required</strong> to understand how they name their functions, how their functions work, etc. This is exactly what RENC
 				counters.
 			</p>
 		</div>
 		<div class="example">
 			<h3>Let’s demonstrate an example of this.</h3>
 			<div class="checkbox">
-				<label for="showUNCVariant">What it could look like on UNC</label>
-				<input type="checkbox" id="showUNCVariant" name="showUNCVariant" v-model="showUNCVariant" />
+				<label for="showENCVariant">What it could look like on RENC</label>
+				<input type="checkbox" id="showENCVariant" name="showENCVariant" v-model="showENCVariant" />
 			</div>
-			<pre><code v-html="highlight(showUNCVariant ? `local is_executor_closure = isexecutorclosure` : `local is_executor_closure = is_syn_closure or is_fluxus_closure or is_sentinel_closure or is_krnl_closure or is_proto_closure or is_calamari_closure or is_electron_closure or is_elysian_closure`,'lua')"></code></pre>
+			<pre><code v-html="highlight(showENCVariant ? `local is_executor_closure = isexecutorclosure` : `local is_executor_closure = is_syn_closure or is_fluxus_closure or is_sentinel_closure or is_krnl_closure or is_proto_closure or is_calamari_closure or is_electron_closure or is_elysian_closure`,'lua')"></code></pre>
 			<sub
 				>This example is also available on the
-				<a href="https://github.com/unified-naming-convention/NamingStandard/blob/main/README.md" target="_blank">GitHub page</a>.</sub
+				<a href="https://github.com/external-naming-convention/RobloxNamingStandard/blob/main/README.md" target="_blank">GitHub page</a>.</sub
 			>
 			<p>
 				This is a scenario, as a script developer, for if you’d like to know whether a function is by the script executor or not. If you’d
@@ -30,7 +30,7 @@
 				remember, that isn’t even every product, it’s just every <em>major</em> product!).
 			</p>
 			<p>
-				Scripters, in our opinion, should not be subject to this laborous work just to attain cross compatibility. And that is where the UNC
+				Scripters, in our opinion, should not be subject to this laborous work just to attain cross compatibility. And that is where the RENC
 				comes into fruition! With one universally accepted (or supported) API comes ease of compatibility and therefore ease of scripting for
 				a developer.
 			</p>
@@ -53,7 +53,7 @@ export default {
 	},
 	data() {
 		return {
-			showUNCVariant: false,
+			showENCVariant: false,
 		};
 	},
 };

@@ -2,12 +2,12 @@
 	<div class="section getStarted">
 		<div class="content">
 			<sub>Make your impact</sub>
-			<h2>Get started with the Unified Naming Convention.</h2>
+			<h2>Get started with the Roblox External Naming Convention.</h2>
 			<p>
 				A syndicate of script executor products will be able to push towards a universally accepted API where scripting is <em>simple</em> and
 				<em>compatibile</em> with all products.
 			</p>
-			<a href="https://github.com/unified-naming-convention/NamingStandard" target="_blank" rel="noopener noreferrer">
+			<a href="https://github.com/external-naming-convention/RobloxNamingStandard" target="_blank" rel="noopener noreferrer">
 				<button primary>Access the API</button>
 			</a>
 		</div>

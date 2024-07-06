@@ -4,7 +4,7 @@
 
 		<div class="main">
 			<div class="title">
-				<h1>Thank you for supporting the UNC! ☀️</h1>
+				<h1>Thank you for supporting the RENC! ☀️</h1>
 				<sub>You are making the world a better place for the scripters who we love and appreciate.</sub>
 			</div>
 			<div class="embed">
@@ -58,9 +58,9 @@ export default {
 	},
 	computed: {
 		embedCode() {
-			return `<a href="https://scriptunc.org" style="height:max-content;" target="_blank">
-    <img style="width: 120px;height:auto;" alt="UNC Supported Badge" src="${
-		process.env.NODE_ENV === "development" ? "" : "https://scriptunc.org"
+			return `<a href="https://roblox.scriptenc.org" style="height:max-content;" target="_blank">
+    <img style="width: 120px;height:auto;" alt="RENC Supported Badge" src="${
+		process.env.NODE_ENV === "development" ? "" : "https://roblox.scriptenc.org"
 	}/badge${this.showText ? "-supported.png" : ".png"}"/>
 </a>`;
 		},

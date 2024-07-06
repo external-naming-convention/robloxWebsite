@@ -1,4 +1,4 @@
-# UNC's Website
+# RENC's Website
 
 ## Project setup
 

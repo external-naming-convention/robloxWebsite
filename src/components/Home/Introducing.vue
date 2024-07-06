@@ -1,18 +1,18 @@
 <template>
 	<div class="section introducing">
-		<img src="@/assets/UNC.png" alt="" />
+		<img src="@/assets/ENC.png" alt="" />
 		<div class="split">
 			<div class="content">
-				<h1>It’s time for a change, introducing UNC.</h1>
+				<h1>It’s time for a change, introducing RENC.</h1>
 				<p>
-					The <strong>Unified Naming Convention</strong>, otherwise simply known as UNC is a new, progressive and purposefully vanilla
+					The <strong>Roblox External Naming Convention</strong>, otherwise simply known as RENC is a new, progressive and purposefully vanilla
 					unified scripting API.
 				</p>
 				<p>
-					UNC is made to combat complex scripting and embrace a fresh standard that provides a far smoother experience for scripters.
-					Meaning <strong>one version of a script works across any fully UNC supported product</strong>!
+					RENC is made to combat complex scripting and embrace a fresh standard that provides a far smoother experience for scripters.
+					Meaning <strong>one version of a script works across any fully RENC supported product</strong>!
 				</p>
-				<a href="https://github.com/unified-naming-convention/NamingStandard" target="_blank" rel="noopener noreferrer">
+				<a href="https://github.com/external-naming-convention/RobloxNamingStandard" target="_blank" rel="noopener noreferrer">
 					<button primary>Access the API</button>
 				</a>
 			</div>
