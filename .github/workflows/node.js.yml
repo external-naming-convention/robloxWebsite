@@ -24,6 +24,9 @@ jobs:
       - name: Build project
         run: yarn build
 
+      - name: Create file
+        run: echo roblox.scriptenc.org >> dist/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
