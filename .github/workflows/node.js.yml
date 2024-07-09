@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+dname: Deploy to GitHub Pages
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
       - name: Build project
         run: yarn build
 
-      - name: Create file
+      - name: Create CNAME file
         run: echo roblox.scriptenc.org >> dist/CNAME
 
       - name: Deploy to GitHub Pages
